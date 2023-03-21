@@ -1,2 +1,2 @@
 # bus-default
-infra.go default bus driver.
+infra.Go default bus driver.
