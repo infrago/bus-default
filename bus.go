@@ -10,8 +10,8 @@ import (
 )
 
 var (
-	errRunning    = errors.New("Bus is running")
-	errNotRunning = errors.New("Bus is not running")
+	errRunning    = errors.New("Bus is running.")
+	errNotRunning = errors.New("Bus is not running.")
 )
 
 type (
