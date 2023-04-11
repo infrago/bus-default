@@ -1,11 +1,14 @@
 package bus
 
-import "github.com/infrago/bus"
+import (
+	"github.com/infrago/bus"
+	"github.com/infrago/infra"
+)
 
 func Driver() bus.Driver {
 	return &defaultDriver{}
 }
 
 func init() {
-	bus.Register("default", Driver())
+	infra.Register("default", Driver())
 }
